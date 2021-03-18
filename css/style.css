@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+}
+.to-do {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebebeb;
+}
+.to-do__title {
+  margin: 20px 0 10px 0;
+  font-family: 'Rubik', sans-serif;
+}
+.to-do__input {
+  text-align: center;
+}
+.list {
+  width: 100%;
+  margin: 0;
+  padding-top: 40px;
+}
+.list__item {
+  height: 50px;
+}
+.list__item--completed {
+  background-color: green;
+}
+.list__item-btn {
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.45em;
+  margin: 0 5px;
+}
+.list__item-btn--complete {
+  background: #76B3FA;
+}
+.list__item-btn--delete {
+  background: red;
+}
+
+/*# sourceMappingURL=style.css.map */
